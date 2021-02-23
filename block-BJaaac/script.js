@@ -1,0 +1,1 @@
+alert("I am learning javascript using script.js")
