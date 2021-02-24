@@ -1,8 +1,15 @@
 // Accessing and assigning.
-
+/*
 let firstName = "Arya";
 let lastName = "Stark";
 
+
+firstName="john";
+lastName = "snow";
+alert(`${firstName}${lastName}`);
+const fullname =firstName + lastName;
+alert(fullname) 
+*/
 // Do the following:
 
 // Alert the value of the firstName.
@@ -17,11 +24,21 @@ let lastName = "Stark";
 // Assign the value of `name` to `newUser`.
 // Set the value of `isAdmin` to `true`.
 // Alert the values of all the three variables.
+/*
+let $name="farhan" , newUser =  $name , isAdmin = true ;
+alert($name + "," + newUser +"," + isAdmin )
 
+*/
 // Assignment and re-assignment
-
+/*
 var wiseMan = "Tyrion Lannister";
-
+wiseMan = "Samwell Tarly";
+alert(wiseMan)
+var userName="Lysa Arryn";
+var oddNumber = 57;
+oddNumber =61;
+alert(oddNumber)
+*/
 // Follow instructions and do the following. In case of an error write the error in comment
 
 // Reassign the value of `wiseMan` to "Samwell Tarly"
@@ -32,7 +49,14 @@ var wiseMan = "Tyrion Lannister";
 // Mathematical Operation
 
 let amount = 4280;
-
+let reducedAmount = amount - 24;
+alert(reducedAmount)
+let addedAmount = amount + 32;
+alert(addedAmount)
+let multipleAmount = amount* 7;
+alert(multipleAmount)
+let dividedAmount = amount / 57;
+alert(dividedAmount)
 // Using mathematical operations find the solutions. `(+, -, \*, / , etc.)`
 
 // Declare a new variable `reducedAmount`. In it store the value that is 24 less than the value of amount.
