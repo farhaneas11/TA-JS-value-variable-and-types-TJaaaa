@@ -6,10 +6,13 @@
  replace that to the value of the variable.
 
 */
-
+/*
 let num1 = 21;
 let num2 = 32;
-
+let language = "javascript";
+alert("value of num1 is "+num1+  "and the value of num2 is"+ num2)
+alert("i am learning " + language)
+*/
 /*
 - Create a variable named `language` and store the value of `JavaScript` in it
 - Alert message saying `I am learning [language]`
@@ -32,7 +35,15 @@ let num2 = 32;
     Adult: [isAdult]
     Profession: [userProfession]` (it should be in three different lines)
 */
-
+/*
+let name=prompt("Enter your name!");
+let userProfession= prompt("profession of the user?");
+let isAdult=confirm("user is male or not?");
+alert("i am "+ name +" a " + userProfession);
+console.log("i am ", name ," a" , userProfession);
+alert("username "+ name +"\n" +"adult: "+ isAdult + "\n" + "profession: "+userProfession);
+console.log("username ", name ,"\n" +"adult: ", isAdult , "\n" , "profession: ", userProfession)
+*/
 /*
 . Addition using prompt
 
@@ -43,3 +54,11 @@ let num2 = 32;
   - Log using console.log [numA - numB]
   - Log using console.log [numA * numB]
 */
+let numA=prompt("enter first number");
+let numB =prompt("enter second number");
+alert(numA + " & "+ numB);
+alert(numA + numB);
+alert(numA - numB);
+alert(numA*numB)
+console.log (numA - numB);
+console.log(numA*numB);
