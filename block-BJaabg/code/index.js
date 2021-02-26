@@ -11,8 +11,42 @@ const TAX_RATE = 0.08;
 const PHONE_PRICE = 99.99;
 const ACCESSORY_PRICE = 9.99;
 
+let total=0;
 var bank_balance = 303.91;
 var amount = 0;
 // your code goes here
 
+while(bank_balance<=0){
+    amount=amount+PHONE_PRICE;      
+    if(amount<=SPENDING_THRESHOLD){
+        amount=ACCESSORY_PRICE+amount;        
+    }    
+    bank_balance=bank_balance-amount;
+    console.log(bank_balance); 
+}
+total=amount*TAX_RATE;
+amount=amount-total;
+console.log(amount);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+function newFunction() {
+    amount = buy * TAX_RATE;
+    total = buy - amount;
+    console.log(total);
+}
 // ⛑ Answer of the above will `$334.76`.
